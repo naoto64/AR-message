@@ -1,7 +1,6 @@
 var param = location.search.slice(1).split("&");
 var text = "";
 var image = "";
-window.alert(param);
 for(var i = 0; i < param.length; i++){
   var param_split = [];
   var param_index = param[i].search("=");
